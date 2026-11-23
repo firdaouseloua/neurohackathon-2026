@@ -1,5 +1,13 @@
-# Your local runs. Results that matter come back from `habs ls`, not from here.
-out/
+# Python environment
 .venv/
 __pycache__/
 *.pyc
+
+# Generated preprocessing outputs
+results/
+
+# EEG data files
+*.bdf
+
+# Local configuration
+.env
